@@ -1,0 +1,88 @@
+
+
+
+
+/* Menu breakpoint */
+
+@media (max-width: 1000px) {
+    .main-navbar-items {
+        display: none;
+    }
+    .main-navbar-toggle {
+        display: flex;
+    }
+    .language-nav>li>a {
+        border-left: none;
+    }
+}
+
+@media (min-width: 1001px) {
+    .main-navbar-items {
+        display: flex;
+    }
+    .main-navbar-toggle {
+        display: none;
+    }
+    .upper-content {
+        margin-top: 80px;
+    }
+}
+
+
+
+/*  MEDIA QUERIES - DEVICES 
+
+// Phone Portrait:   Galaxy (360x640), iPhone 6 (375x667), iPhone 6+ (414x736)
+// Phone Landscape:  Galaxy (640x360), iPhone 6 (667x375), iPhone 6+ (736x414)
+// Tablet Portrait:  iPad (768x1024), Galaxy Tab (800x1280),
+// Tablet Landscape: iPad (1024x768), iPad Pro (1024x1366),
+      Galaxy Tab (1280x800), iPad Pro (1366x1024)
+
+
+/*
+// *** HEIGHT RELATED   
+*/
+
+/* Small Phones - low height (landscape) */
+@media (max-height: 450px) {
+       
+}
+
+/* Small Screens - low height */
+@media (min-height: 770px) {
+
+}
+
+/* Normal Screens - standart height */
+@media (min-height: 1000px) {
+
+}
+
+/*
+// *** WIDTH RELATED   
+*/
+
+/* Phone Portrait */
+@media (max-width: 639px) {
+
+}
+
+/* Phone landscape and bigger - @s (640px +) */
+@media (min-width: 640px) and (min-height: 450px) {
+
+}
+
+/* Tablet landscape and bigger - @m (960px +) */
+@media (min-width: 960px) {
+
+}
+
+/* Desktop and bigger - @l (1200px +) */
+@media (min-width: 1200px) {
+    
+}
+
+/* Large screen and bigger - @xl (1600px +) */
+@media (min-width: 1600px) {
+
+}

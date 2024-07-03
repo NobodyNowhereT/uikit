@@ -1,0 +1,134 @@
+
+//
+// Component: Base
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+//
+// New
+//
+/*
+@base-heading-font-family:                      @global-heading-font-family;
+@base-heading-font-weight:                      @global-heading-font-weight;
+
+
+@base-code-padding-horizontal:                  6px;
+@base-code-padding-vertical:                    2px;
+@base-code-background:                          @global-muted-background;
+
+@base-blockquote-color:                         @global-emphasis-color;
+
+@base-blockquote-footer-color:                  @global-color;
+
+@base-pre-padding:                              10px;
+@base-pre-background:                           @global-background;
+@base-pre-border-width:                         @global-border-width;
+@base-pre-border:                               @global-border;
+@base-pre-border-radius:                        3px;
+*/
+
+// Body
+// ========================================================================
+
+.hook-base-body() {
+  letter-spacing: @global-letter-spacing;
+  background-color: @global-background;
+  font-weight: @global-font-weight;
+  //background-image: url(/ui/site/brand/fill-chips/50w/sea-grey.png);
+}
+
+
+
+
+// Links
+// ========================================================================
+
+.hook-base-link() {}
+
+.hook-base-link-hover() {}
+
+
+// Text-level semantics
+// ========================================================================
+
+.hook-base-code() {}
+
+// Headings
+// ========================================================================
+
+.hook-base-heading() {
+   font-family: @global-heading-font-family;
+   font-weight: @global-heading-font-weight;
+}
+
+.hook-base-h1() {}
+
+.hook-base-h2() {}
+
+.hook-base-h3() {}
+
+.hook-base-h4() {}
+
+.hook-base-h5() {}
+
+.hook-base-h6() {}
+
+
+// Horizontal rules
+// ========================================================================
+
+.hook-base-hr() {}
+
+
+// Blockquotes
+// ========================================================================
+
+.hook-base-blockquote() {}
+
+.hook-base-blockquote-footer() {}
+
+
+// Preformatted text
+// ========================================================================
+
+.hook-base-pre() {}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-base-misc() {}
+
+dt {
+  font-weight: @base-strong-font-weight;
+}
+
+
+// Inverse
+// ========================================================================
+
+@inverse-base-blockquote-color:                @inverse-global-emphasis-color;
+@inverse-base-blockquote-footer-color:         @inverse-global-color;
+
+.hook-inverse-base-link() {}
+.hook-inverse-base-link-hover() {}
+
+.hook-inverse-base-code() {}
+
+.hook-inverse-base-heading() {}
+
+.hook-inverse-base-h1() {}
+.hook-inverse-base-h2() {}
+.hook-inverse-base-h3() {}
+.hook-inverse-base-h4() {}
+.hook-inverse-base-h5() {}
+.hook-inverse-base-h6() {}
+
+.hook-inverse-base-blockquote() {}
+.hook-inverse-base-blockquote-footer() {}
+
+.hook-inverse-base-hr() {}
