@@ -2,7 +2,7 @@
 
 # Check if the target project's root directory is provided
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <path-to-target-project-root>"
+    echo "Usage: $0 <path-to-target-project-roots-app-directory>"
     exit 1
 fi
 

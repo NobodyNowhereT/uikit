@@ -2,7 +2,7 @@
 
 # Ensure the script is executed with an argument
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <path-to-target-project-root>"
+    echo "Usage: $0 <path-to-target-project-roots-app-directory>"
     exit 1
 fi
 

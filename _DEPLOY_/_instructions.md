@@ -7,7 +7,7 @@ cd /Users/tony/Projects/_repos_/uikit/_DEPLOY_
 
 2. Execute the **deploy_uikit** script.
 ```bash
-./deploy_uikit.sh path-to-the-project-root
+./deploy_uikit.sh path-to-the-project-roots-app-directory
 ```
 
 3. Add fonts, update the respective files in **ui/site/less/** directory
@@ -23,7 +23,7 @@ cd /Users/tony/Projects/_repos_/uikit/_DEPLOY_
 
 2. Execute the **update_uikit** script.
 ```bash
-./update_uikit.sh /path/to/target/project/root
+./update_uikit.sh ath-to-the-project-roots-app-directory
 ```
 
 3. Re-compile the **uikit.site.less** (in ui/site/less) 
@@ -33,7 +33,7 @@ cd /Users/tony/Projects/_repos_/uikit/_DEPLOY_
 
 ## DJANGO Integration
 
-1. in **settings.py**, point new dev static directory to " BASE / "ui/dist"
+1. in **settings**, point new dev static directory to " BASE / "ui/dist"
 
 
 
